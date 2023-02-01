@@ -94,13 +94,13 @@ paths:
                     type: string
                     nullable: true
                     format: uri
-                    example: http://foodgram.example.org/api/users/?page=4
+                    example: http://svoevkusnee.example.org/api/v1/users/?page=4
                     description: 'Ссылка на следующую страницу'
                   previous:
                     type: string
                     nullable: true
                     format: uri
-                    example: http://foodgram.example.org/api/users/?page=2
+                    example: http://svoevkusnee.example.org/api/v1/users/?page=2
                     description: 'Ссылка на предыдущую страницу'
                   results:
                     type: array
